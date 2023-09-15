@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Webpage</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Create a gradient background for the whole page */
+        body {
+            
+            background: linear-gradient(to bottom, #e0e0e0, #f0f0f0);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Style the navigation bar */
+        .navbar {
+            background-color: #333;
+            padding: 15px 0;
+            
+        }
+
+        .navbar button {
+            background-color: #444;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar button:hover {
+            background-color: #555;
+        }
+
+        /* Create three sections with different color themes */
+        .section {
+            flex: 1;
+            padding: 50px;
+        }
+
+        .section:nth-child(odd) {
+            background-color: #4158D0;
+            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+;
+        }
+
+        .section:nth-child(even) {
+            background-color: #85FFBD;
+            background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fmarketing-logo&psig=AOvVaw0FKRpXhzw8QOkVf-lc9MYf&ust=1694325807954000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNjGptHtnIEDFQAAAAAdAAAAABAE">
+        <button>Sales Dashboard</button>
+        <button>Update Details</button>
+        <button>Signout</button>
+    </div>
+    <div class="section">
+        <h1>Section 1</h1>
+        <p>This is the first section with a gradient background.</p>
+    </div>
+    <div class="section">
+        <h1>Section 2</h1>
+        <p>This is the second section with a different gradient background.</p>
+    </div>
+    <div class="section">
+        <h1>Section 3</h1>
+        <p>This is the third section with another gradient background.</p>
+    </div>
+    <footer>
+        <p>&copy; 2023 Aesthetic Webpage</p>
+    </footer>
+</body>
+</html>
